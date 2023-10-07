@@ -3,7 +3,7 @@
  */
 package literaldogwaterlibrary;
 
-public class Library
+public class Core
 {
     public boolean someLibraryMethod()
     {
@@ -12,7 +12,7 @@ public class Library
 
     public String test()
     {
-        return "kekw";
+        return "working";
     }
 
     public static boolean isOdd(int number)

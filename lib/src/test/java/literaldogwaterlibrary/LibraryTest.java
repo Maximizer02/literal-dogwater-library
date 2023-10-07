@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
     @Test void someLibraryMethodReturnsTrue() {
-        Library classUnderTest = new Library();
+        Core classUnderTest = new Core();
         assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
         System.out.println(classUnderTest.isOdd(7));
     }
