@@ -11,15 +11,17 @@ but in most cases they are both. Enjoy!
 - test(): string
 - isOdd(): bool
 - isTrue(bool): bool
-- math functions (add,subtract,multiply,divide)
 - isFalse(bool): bool
+- math functions (add,subtract,multiply,divide)
 - rickRoll(): string() (url)
 
 ### Currently Planned Features
 
 - stringLength(string): int
 - sortArray(var[]):var[] (Bogosort)
-
+- fizzbuzz(int): string
+- Bullshitery with strings
+- brainfuck(string): string
 
 ### Why, just why?
 - Honestly, just for the lols
