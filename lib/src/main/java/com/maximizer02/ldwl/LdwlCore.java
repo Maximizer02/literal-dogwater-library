@@ -15,7 +15,7 @@ public class LdwlCore
         return "working";
     }
 
-    public static boolean isOdd(int number)
+    public boolean isOdd(int number)
     {
         switch (number % 2)
         {
