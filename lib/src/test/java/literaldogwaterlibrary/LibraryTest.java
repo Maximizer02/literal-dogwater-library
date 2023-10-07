@@ -3,13 +3,13 @@
  */
 package literaldogwaterlibrary;
 
-import com.maximizer02.ldl.Core;
+import com.maximizer02.ldwl.LdwlCore;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
     @Test void someLibraryMethodReturnsTrue() {
-        Core classUnderTest = new Core();
+        LdwlCore classUnderTest = new LdwlCore();
         assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
         System.out.println(classUnderTest.isOdd(7));
     }
