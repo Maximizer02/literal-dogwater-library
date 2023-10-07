@@ -3,6 +3,7 @@
  */
 package literaldogwaterlibrary;
 
+import com.maximizer02.ldwl.LdwlBool;
 import com.maximizer02.ldwl.LdwlCore;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -10,7 +11,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class LibraryTest {
     @Test void someLibraryMethodReturnsTrue() {
         LdwlCore classUnderTest = new LdwlCore();
+        LdwlBool bool = new LdwlBool();
         assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
-        System.out.println(classUnderTest.isOdd(7));
+        System.out.println(bool.isOdd(7));
     }
 }
