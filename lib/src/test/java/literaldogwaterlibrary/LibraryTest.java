@@ -3,6 +3,7 @@
  */
 package literaldogwaterlibrary;
 
+import com.maximizer02.ldl.Core;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
