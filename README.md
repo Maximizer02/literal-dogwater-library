@@ -10,15 +10,16 @@ but in most cases they are both. Enjoy!
 ### Features
 - test(): string
 - isOdd(): bool
-
+- isTrue(bool): bool
+- math functions (add,subtract,multiply,divide)
+- isFalse(bool): bool
+- rickRoll(): string() (url)
 
 ### Currently Planned Features
-- isTrue(bool): bool
-- isFalse(bool): bool
+
 - stringLength(string): int
-- invert(bool): bool
 - sortArray(var[]):var[] (Bogosort)
-- rickRoll(): string() (url)
+
 
 ### Why, just why?
 - Honestly, just for the lols

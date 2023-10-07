@@ -12,4 +12,17 @@ public class LdwlBool
                 return true;
         }
     }
+
+    public boolean isTrue(boolean bool)
+    {
+        boolean response = bool==true?true:false;
+        return response;
+    }
+
+    public boolean isFalse(boolean bool)
+    {
+        boolean response = bool==true?false:true;
+        return response;
+    }
+
 }
