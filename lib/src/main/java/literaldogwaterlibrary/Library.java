@@ -15,7 +15,7 @@ public class Library
         return "kekw";
     }
 
-    public boolean isOdd(int number)
+    public static boolean isOdd(int number)
     {
         switch (number % 2)
         {
