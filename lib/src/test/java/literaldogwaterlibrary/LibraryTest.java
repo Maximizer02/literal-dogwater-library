@@ -12,10 +12,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
     @Test void someLibraryMethodReturnsTrue() {
-        LdwlMisc misc = new LdwlMisc();
+        LdwlBool bool = new LdwlBool();
         //double[] array = new double[]{213,123,123,4434,54,67,78,0,89,23,1,3,5678,2,34};
-        double[] array = new double[]{213,123,123,4434,54,67,78,0};
-        double[] result = misc.sortArray(array);
-        System.out.println(Arrays.toString(result));
+        //double[] array = new double[]{213,123,123,4434,54,67,78,0};
+        //double[] result = misc.sortArray(array);
+        System.out.println(bool.isTrue(1==1));
     }
 }

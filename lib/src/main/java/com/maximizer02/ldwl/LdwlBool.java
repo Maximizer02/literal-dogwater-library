@@ -15,13 +15,20 @@ public class LdwlBool
 
     public boolean isTrue(boolean bool)
     {
-        boolean response = bool==true?true:false;
-        return response;
+        boolean response = bool == true ? true : false;
+        switch (String.valueOf(response))
+        {
+            case "true":
+                return true;
+            case "false":
+                return false;
+            default:return false;
+        }
     }
 
     public boolean isFalse(boolean bool)
     {
-        boolean response = bool==true?false:true;
+        boolean response = bool == true ? false : true;
         return response;
     }
 
