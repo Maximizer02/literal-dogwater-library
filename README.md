@@ -18,10 +18,10 @@ but in most cases they are both. Enjoy!
 - randomRange(min,max): int
 - shuffleArray(double[]): double[]
 - doNothing(): void
+- stringLength(string): int
 
 ### Currently Planned Features
 
-- stringLength(string): int
 - fizzbuzz(int): string
 - Bullshitery with strings
 - brainfuck(string): string
