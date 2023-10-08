@@ -14,14 +14,18 @@ but in most cases they are both. Enjoy!
 - isFalse(bool): bool
 - math functions (add,subtract,multiply,divide)
 - rickRoll(): string() (url)
+- sortArray(double[]):double[] (Bogosort)
+- randomRange(min,max): int
+- shuffleArray(double[]): double[]
+- doNothing(): void
 
 ### Currently Planned Features
 
 - stringLength(string): int
-- sortArray(var[]):var[] (Bogosort)
 - fizzbuzz(int): string
 - Bullshitery with strings
 - brainfuck(string): string
+- getAbsoluteValue(int): int
 
 ### Why, just why?
 - Honestly, just for the lols

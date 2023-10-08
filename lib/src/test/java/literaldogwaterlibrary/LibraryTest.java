@@ -3,16 +3,19 @@
  */
 package literaldogwaterlibrary;
 
-import com.maximizer02.ldwl.LdwlBool;
-import com.maximizer02.ldwl.LdwlCore;
+import com.maximizer02.ldwl.*;
 import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
     @Test void someLibraryMethodReturnsTrue() {
-        LdwlCore classUnderTest = new LdwlCore();
-        LdwlBool bool = new LdwlBool();
-        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
-        System.out.println(bool.isOdd(7));
+        LdwlMisc misc = new LdwlMisc();
+        //double[] array = new double[]{213,123,123,4434,54,67,78,0,89,23,1,3,5678,2,34};
+        double[] array = new double[]{213,123,123,4434,54,67,78,0};
+        double[] result = misc.sortArray(array);
+        System.out.println(Arrays.toString(result));
     }
 }

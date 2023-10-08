@@ -5,14 +5,19 @@ package com.maximizer02.ldwl;
 
 public class LdwlCore
 {
-    public boolean someLibraryMethod()
-    {
-        return true;
-    }
-
     public String test()
     {
         return "working";
     }
 
+    public int getStringLength(String s)
+    {
+        int length = 0;
+        for (int i = 0; i < s.length(); i++)
+        {
+            length++;
+        }
+        return length;
+    }
+    public void doNothing(){}
 }
