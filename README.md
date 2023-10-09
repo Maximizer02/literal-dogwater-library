@@ -12,7 +12,7 @@ but in most cases they are both. Enjoy!
 - isOdd(): bool
 - isTrue(bool): bool
 - isFalse(bool): bool
-- math functions (add,subtract,multiply,divide)
+- math functions (add,subtract,multiply,divide,square)
 - rickRoll(): string() (url)
 - sortArray(double[]):double[] (Bogosort)
 - randomRange(min,max): int
